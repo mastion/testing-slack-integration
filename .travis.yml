@@ -3,3 +3,5 @@ node_js: 8
 install:
   - npm i
   - npm run pkg-win
+  - npm run pkg-mac
+  - npm run pkg-lin
