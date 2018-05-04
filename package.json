@@ -1,0 +1,16 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "testing out travis ci integration",
+  "author": "Mastion",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "pkg-win": "pkg -t node8-win-x64 ./main.js",
+    "pkg-mac": "pkg -t node8-macos-x64 ./main.js",
+    "pkg-lin": "pkg -t node8-linux-x64 ./main.js"
+  },
+  "devDependencies": {
+    "pkg": "4.3.1"
+  }
+}
