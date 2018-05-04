@@ -5,6 +5,7 @@
   "author": "Mastion",
   "private": true,
   "license": "UNLICENSED",
+  "engines": { "node": "8.4.0" },
   "scripts": {
     "pkg-win": "pkg -t node8-win-x64 ./main.js",
     "pkg-mac": "pkg -t node8-macos-x64 ./main.js",
